@@ -1,0 +1,25 @@
+{ "name": "array-util"
+, "description": "Groovy's like array in coffeescript"
+, "maintainers":
+  [ { "name": "Audie MALLOGIA"
+    , "web": "https://github.com/amallo"
+    }
+  ]
+, "version": "0.1.0"
+, "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/amallo/array-util"
+  }
+, "devDependencies":
+  { "nodeunit": ">=0.7.4"
+  }
+, "licenses" :
+  [ { "type" : "MIT"
+    , "url" : "http://github.com/caolan/nodeunit/raw/master/LICENSE"
+    }
+  ]
+, "directories" : { "lib": "./lib"}
+, "dependencies" :
+  { 
+  }
+}
