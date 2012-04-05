@@ -21,7 +21,7 @@ Usage
 -----
 In nodejs simply add:
 
-arrayUtil = require "array-util"
+    arrayUtil = require "array-util"
 
 Tests
 -----
