@@ -35,9 +35,11 @@ exports['Array::remove by function'] =  (test)  ->
    
 
 exports['Array::clear'] =  (test)  ->
-   array = [{username:"me"},{username:"meToo"},{username:"meOfCourse"}]
+   player = {username:"me"}
+   array = [player,{username:"meToo"},{username:"meOfCourse"}]
    array.clear()
    test.equal(array.length, 0)
+   test.ok player
    test.done()
    
 exports['Array::shuffle'] =  (test)  ->
