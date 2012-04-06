@@ -1,10 +1,10 @@
 array-unit
 ==========
 
-Array methods inspired by [Groovy's collection methods](http://groovy.codehaus.org/Collections).
+Array methods inspired by [Groovy's collection methods](http://groovy.codehaus.org/Collections) and written in a closure way with coffeescript.
 
 
-Add new methods in Javascript Array class if not exist...
+This module adds new methods in Javascript Array class if not found...
     
     unless Array::remove
       Array::remove = (fn) ->
